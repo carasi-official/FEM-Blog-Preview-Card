@@ -1,0 +1,27 @@
+/* color and font variables variables */
+:root{
+    --yellow: #F4D04E;
+    --grey-950: #111111;
+    --grey-500: #6B6B6B;
+    --white: #FFFFFF;
+    --figtreeBold: 'Figtree Extra Bold', sans-serif;
+    --figtreeMedium: 'Figtree Medium', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    max-height: 522px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img{
+    width: 200px;
+    border-radius: 5px;
+}
