@@ -1,9 +1,14 @@
-/* color and font variables variables */
+/* color and font */
 :root{
     --yellow: #F4D04E;
     --grey-950: #111111;
     --grey-500: #6B6B6B;
     --white: #FFFFFF;
+}
+
+@font-face{
+    font-family: "figtree";
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
 }
 
 body{
