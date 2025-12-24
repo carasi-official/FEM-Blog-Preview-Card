@@ -8,10 +8,6 @@
 
 body{
     background-color: var(--yellow);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -52,6 +48,16 @@ body{
     line-height: 150%;
 }
 
+main{
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
 .card{
     background-color: var(--white);
     display: flex;
@@ -66,21 +72,12 @@ body{
     max-width: 75%;
 }
 
-.card-hero{
-    display: flex;
+img{
     border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    margin: 0;
-    padding: 0;
-}
-
-.card-hero img{
     padding: 0;
     margin: 0;
     height: 100%;
-    overflow: clip;
+    overflow: hidden;
 }
 
 .card-content{
